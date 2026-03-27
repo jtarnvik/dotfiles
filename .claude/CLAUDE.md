@@ -30,6 +30,13 @@ issues on my own, but it would take some time and effort.
 
 When a new file is created and the user has approved it, stage it in git with `git add <file>`.
 
+## This file
+
+After making any edit to this file, immediately stage, commit, and push it:
+```bash
+cd ~/dotfiles && git add .claude/CLAUDE.md && git commit -m "Update global Claude preferences" && git push
+```
+
 ## AI Collaboration
 
 - Implement only the current step unless told otherwise.
